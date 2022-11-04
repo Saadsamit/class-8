@@ -1,0 +1,200 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    width: 1170px;
+    margin: auto;
+}
+.fonts{
+    color: #02918c;
+    text-transform: uppercase;
+    font-size: 46px;
+    font-weight: 800;
+}
+.icon{
+    margin: 31px auto 36px auto;
+}
+/* common css end */
+/* nav css start */
+nav{
+    background: #02918b;
+}
+.logo{
+    width: 15%;
+}
+.menu{
+    width: 85%;
+}
+nav .main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav .menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+nav .menu ul li a{
+    color: #fff;
+    display: block;
+    padding: 26px 25px;
+    text-transform: uppercase;
+    font-weight: 800;
+    transition: 0.7s;   
+}
+nav .menu ul li:hover a{
+    color: #0b1016;
+    background: #cfc91d;
+}
+/* nav css end */
+/* banner css start */
+#banner{
+    background: url(../img/Banner.jpg);
+    height: 726px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+#banner .main{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#banner .main div img{
+    display: block;
+    margin: 52px auto;
+}
+#banner .main div h4{
+    color: #fff;
+    font-weight: 400;
+    font-size: 30px;
+}
+#banner .main div h1{
+    color: #fff;
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+#banner .main div p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+#banner .main div a{
+    color: #0b1016;
+    background: #cfc91d;
+    padding: 20px 44px;
+    font-weight: 800;
+    font-size: 14px;
+}
+#banner::after{
+    content: '';
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .6;
+    z-index: -1;
+}
+/* banner css end */
+/* about start */
+.about{
+    
+    text-align: center;
+    text-align: justify;
+    text-align-last: center;
+}
+.about_div{
+    width: 875px;
+    margin:auto;
+    margin: 98px auto 0 auto;
+}
+
+.about p{
+    line-height: 32px;
+    
+}
+.about .about_content{width: 1170px;
+    display: flex;
+    text-align:justify;
+    margin: 130px auto;
+    
+}
+.about .about_content div{
+    padding: 62px;
+}
+.border{
+    border: 1px #d9dbdb solid;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+.about .about_content div h4{
+    font-size: 16px;
+    font-weight: 800;
+}
+/* about end */
+/* service start */
+.service{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+    /* background: #f0f0e8; */
+}
+.service .div_1{
+    width: 640px;
+    height: 733px;
+    padding: 80px;
+    line-height: 28px;
+}
+.service .photo{
+    background: url(../img/services.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 640px;
+    height: 733px;
+}
+.service .div_2{
+    width: 175px;
+    height: 145px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.service::after{
+    content: '';
+    background: #f0f0e8;
+    width: 100%;
+    height: 100%;
+    position: absolute;top: 0;right: 0;
+    opacity: 30%;
+    z-index: -1;
+}
+
+     
+     
+
+/* service end */
